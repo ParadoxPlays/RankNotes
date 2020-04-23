@@ -5,6 +5,7 @@ declare(strict_types=1);
 namespace Fadhel\RankNotes\commands;
 
 use Fadhel\RankNotes\Main;
+use pocketmine\Player;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\item\enchantment\Enchantment;
@@ -27,6 +28,10 @@ class Rank extends Command
     public function execute(CommandSender $sender, string $commandLabel, array $args)
     {
         if(!$this->testPermission($sender) or !$sender->hasPermission("ranknotes.command")){
+            return;
+        }
+        if($sender instanceof Player and !$sender->hasPermission("ranknotes.command")){
+            $sender->sendMessage(TextFormat::RED . "You do not have permission to use this command.");
             return;
         }
         if (empty($args[0]) || empty($args[1])) {
