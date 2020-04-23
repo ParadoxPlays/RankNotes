@@ -4,7 +4,7 @@ An open-source rank notes plugin for PocketMine-MP
 ## Commands:
 | Command | Arguments | Permission|
 | :-----: | :-------: | :-------: |
-| /ranknotes | <player> <rank> [amount] | ranknotes.command|
+| /ranknotes | [player] [rank] [amount] | ranknotes.command|
 
 ## Features:
 - Right-click redeem
