@@ -1,5 +1,5 @@
 # RankNotes
-An open-source rank notes plugin for PocketMine-MP. [![Hits](http://hits.dwyl.com/Dim9999/RankNotes.svg)](http://hits.dwyl.com/Dim9999/RankNotes 
+An open-source rank notes plugin for PocketMine-MP. [![Hits](http://hits.dwyl.com/Dim9999/RankNotes.svg)](http://hits.dwyl.com/Dim9999/RankNotes)
 
 ## Commands:
 | Command | Arguments | Permission|
