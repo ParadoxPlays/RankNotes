@@ -1,0 +1,9 @@
+name: RankNotes
+main: Fadhel\RankNotes\Main
+version: 1.0.0
+api: 3.0.0
+author: Fadhel
+website: youtube.com/c/FadhelFS
+permissions:
+  ranknotes.command:
+    default: false
