@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§l§fOrigins§4+§r 1.5.1.1§7 [B]",
+		"description": "Coded and Designed by ShadowSharkPVP, inspired by the java version by Apace100",
+		"uuid": "01e559e2-8c70-41dd-8c4d-d28dca714f72",
+		"version": [1,5,11],
+		"min_engine_version": [1, 19, 2]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "df968b38-6123-4d74-a101-b88091728454",
+			"version": [1,5,11]
+		}
+	],
+	"dependencies": [
+		{
+			"version": [1,5,11],
+			"uuid": "62a75eb2-bb50-4161-9f26-9201b7845eb6"
+		}
+	]
+}
